@@ -12,8 +12,8 @@ const observer = new IntersectionObserver((entries) => {
     });
 }, observerOptions);
 
-// Observe all sections and major elements
-document.querySelectorAll('section, .feature-card, .service-card, .step, .testimonial-card, .faq-item, .project-card, .process-wrapper').forEach(el => {
+// Observe all sections and major elements (excluding hero)
+document.querySelectorAll('section:not(.hero), .feature-card, .service-card, .step, .testimonial-card, .faq-item, .project-card, .process-wrapper').forEach(el => {
     el.classList.add('fade-up');
     observer.observe(el);
 });
