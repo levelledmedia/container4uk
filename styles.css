@@ -1,7 +1,7 @@
 :root {
     /* Brand Colors */
     --primary-blue: #336db8;
-    --deep-black: #141414;
+    --deep-black: #001B33;
 
     /* Neutral Backgrounds */
     --bg-cream: #e6efff;
@@ -343,7 +343,7 @@ p {
 /* VALUE SECTION */
 .value-section {
     background-color: var(--bg-white);
-    padding: 90px 0;
+    padding: 120px 0 90px 0;
 }
 
 .value-grid {
@@ -410,7 +410,7 @@ p {
 /* SERVICE CARDS */
 .services-section {
     background-color: var(--bg-white);
-    padding: 90px 0;
+    padding: 90px 0 120px 0;
 }
 
 .service-cards {
@@ -597,7 +597,7 @@ p {
 /* TESTIMONIALS */
 .testimonials-section {
     background-color: var(--bg-white);
-    padding: 120px 0;
+    padding: 120px 0 90px 0;
 }
 
 .testimonials-grid {
@@ -717,7 +717,7 @@ p {
 /* FAQ SECTION */
 .faq-section {
     background-color: var(--bg-white);
-    padding: 90px 0;
+    padding: 90px 0 120px 0;
 }
 
 .faq-container {
@@ -864,7 +864,7 @@ p {
 }
 
 .footer-col-brand .logo-icon {
-    filter: brightness(0);
+    /* No filter applied - show original logo color */
 }
 
 .footer-col {
